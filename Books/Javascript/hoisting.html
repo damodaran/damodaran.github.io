@@ -1,0 +1,527 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
+        <meta charset="UTF-8">
+        <title>Hoisting | Blog</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="damodaran">
+        <meta name="description" content="Book generated using GitBook">
+        <meta name="keywords" content="gitbook,github" >
+        <meta name="generator" content="www.gitbook.io">
+
+        
+        <link rel="next" href="..\../Books/Javascript/Json.html" />
+        
+        
+        <link rel="prev" href="..\../Books/Javascript/README.html" />
+        
+
+        <meta property="og:title" content="Hoisting | Blog">
+        <meta property="og:site_name" content="Blog">
+        <meta property="og:type" content="book">
+        <meta property="og:locale" content="en_US">
+
+        <meta property="book:author" content="https://github.com/damodaran">
+        <meta property="book:tag" content="GitBook">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link rel="shortcut icon" href="..\..\gitbook/images/favicon.ico" type="image/x-icon">
+
+        
+        <link rel="stylesheet" href="..\..\gitbook/style.css">
+        
+        
+    </head>
+    <body>
+        
+<div class="book" data-github="damodaran/blog" data-level="2.1" data-basepath="..\.." data-revision="1397326311662">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="https://github.com/damodaran/blog" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
+    <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
+
+    <!-- Actions Right -->
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://github.com/damodaran/blog/stargazers" target="_blank" class="btn pull-right count-star"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/damodaran/blog/watchers" target="_blank" class="btn pull-right count-watch"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+
+
+    <!-- Title -->
+    <h1><a href="..\../" >Blog</a></h1>
+</div>
+
+    <div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        <li>
+            <a href="https://github.com/damodaran" target="blank">About the author</a>
+        </li>
+        <li>
+            <a href="https://github.com/damodaran/blog/issues" target="blank">Questions and Issues</a>
+        </li>
+        <li>
+            <a href="https://github.com/damodaran/blog/edit/master/Books/Javascript/hoisting.md" target="blank">Edit and Contribute</a>
+        </li>
+        <li class="divider"></li>
+        <li data-level="0" data-path="index.html">
+            <a href="..\../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+            <li  data-level="1" data-path="Books/Nodejs/README.html">
+                
+                <a href="..\../Books/Nodejs/README.html">
+                    <i class="fa fa-check"></i> <b>1)</b> Node.js
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="1.1" data-path="Books/Nodejs/NodeJS- Introduction.html">
+                            
+                            <a href="..\../Books/Nodejs/NodeJS- Introduction.html">
+                                <i class="fa fa-check"></i> <b>1.1)</b> NodeJS- Introduction
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.2" data-path="Books/Nodejs/Event loop.html">
+                            
+                            <a href="..\../Books/Nodejs/Event loop.html">
+                                <i class="fa fa-check"></i> <b>1.2)</b> Event loop
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.3" data-path="Books/Nodejs/package json.html">
+                            
+                            <a href="..\../Books/Nodejs/package json.html">
+                                <i class="fa fa-check"></i> <b>1.3)</b> Package.json
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.4" data-path="Books/Nodejs/NodeJS module.html">
+                            
+                            <a href="..\../Books/Nodejs/NodeJS module.html">
+                                <i class="fa fa-check"></i> <b>1.4)</b> NodeJS module
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.5" data-path="Books/Nodejs/Express.html">
+                            
+                            <a href="..\../Books/Nodejs/Express.html">
+                                <i class="fa fa-check"></i> <b>1.5)</b> Express.js
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.6" data-path="Books/Nodejs/Routes.html">
+                            
+                            <a href="..\../Books/Nodejs/Routes.html">
+                                <i class="fa fa-check"></i> <b>1.6)</b> Routes.js
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.7" data-path="Books/Nodejs/Install-Express.html">
+                            
+                            <a href="..\../Books/Nodejs/Install-Express.html">
+                                <i class="fa fa-check"></i> <b>1.7)</b> Install Express
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.8" data-path="Books/Nodejs/Express Static Middleware.html">
+                            
+                            <a href="..\../Books/Nodejs/Express Static Middleware.html">
+                                <i class="fa fa-check"></i> <b>1.8)</b> Express Static Middleware
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.9" data-path="Books/Nodejs/noodlejs.html">
+                            
+                            <a href="..\../Books/Nodejs/noodlejs.html">
+                                <i class="fa fa-check"></i> <b>1.9)</b> noodlejs
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.10" data-path="Books/Nodejs/requestjs.html">
+                            
+                            <a href="..\../Books/Nodejs/requestjs.html">
+                                <i class="fa fa-check"></i> <b>1.10)</b> requestjs
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.11" data-path="Books/Nodejs/Where to run nodejs.html">
+                            
+                            <a href="..\../Books/Nodejs/Where to run nodejs.html">
+                                <i class="fa fa-check"></i> <b>1.11)</b> Where to run nodejs
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="2" data-path="Books/Javascript/README.html">
+                
+                <a href="..\../Books/Javascript/README.html">
+                    <i class="fa fa-check"></i> <b>2)</b> Javascript
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="2.1" data-path="Books/Javascript/hoisting.html">
+                            
+                            <a href="..\../Books/Javascript/hoisting.html">
+                                <i class="fa fa-check"></i> <b>2.1)</b> Hoisting
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="2.2" data-path="Books/Javascript/Json.html">
+                            
+                            <a href="..\../Books/Javascript/Json.html">
+                                <i class="fa fa-check"></i> <b>2.2)</b> Json
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="3" data-path="Books/MySQL/README.html">
+                
+                <a href="..\../Books/MySQL/README.html">
+                    <i class="fa fa-check"></i> <b>3)</b> MySQL
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="3.1" data-path="Books/MySQL/Chained data.html">
+                            
+                            <a href="..\../Books/MySQL/Chained data.html">
+                                <i class="fa fa-check"></i> <b>3.1)</b> Chained data
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="3.2" data-path="Books/MySQL/Create JSON structure using SQL.html">
+                            
+                            <a href="..\../Books/MySQL/Create JSON structure using SQL.html">
+                                <i class="fa fa-check"></i> <b>3.2)</b> Create JSON structure using SQL
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="4" data-path="Books/PHP/README.html">
+                
+                <a href="..\../Books/PHP/README.html">
+                    <i class="fa fa-check"></i> <b>4)</b> PHP
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="4.1" data-path="Books/PHP/require vs include.html">
+                            
+                            <a href="..\../Books/PHP/require vs include.html">
+                                <i class="fa fa-check"></i> <b>4.1)</b> require vs include
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="5" data-path="Books/Java/README.html">
+                
+                <a href="..\../Books/Java/README.html">
+                    <i class="fa fa-check"></i> <b>5)</b> Java
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="5.1" data-path="Books/Java/Garbage Collector.html">
+                            
+                            <a href="..\../Books/Java/Garbage Collector.html">
+                                <i class="fa fa-check"></i> <b>5.1)</b> Garbage Collector
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="6" data-path="Books/NoSQL/README.html">
+                
+                <a href="..\../Books/NoSQL/README.html">
+                    <i class="fa fa-check"></i> <b>6)</b> NoSQL
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="7" data-path="Books/Other/README.html">
+                
+                <a href="..\../Books/Other/README.html">
+                    <i class="fa fa-check"></i> <b>7)</b> Other
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="7.1" data-path="Books/Other/Egyptian-multiplication.html">
+                            
+                            <a href="..\../Books/Other/Egyptian-multiplication.html">
+                                <i class="fa fa-check"></i> <b>7.1)</b> Egyptian multiplication
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="7.2" data-path="Books/Other/Python.html">
+                            
+                            <a href="..\../Books/Other/Python.html">
+                                <i class="fa fa-check"></i> <b>7.2)</b> Python
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="7.3" data-path="Books/Other/UML.html">
+                            
+                            <a href="..\../Books/Other/UML.html">
+                                <i class="fa fa-check"></i> <b>7.3)</b> UML
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body" tabindex="-1">
+        <div class="body-inner">
+            <div class="page-wrapper">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 51.851851851851855%;min-width: 48.148148148148145%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="..\../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="..\../Books/Nodejs/README.html" title="Node.js" class="chapter done new-chapter" data-progress="1" style="left: 3.7037037037037037%;"></a>
+    
+        <a href="..\../Books/Nodejs/NodeJS- Introduction.html" title="NodeJS- Introduction" class="chapter done " data-progress="1.1" style="left: 7.407407407407407%;"></a>
+    
+        <a href="..\../Books/Nodejs/requestjs.html" title="requestjs" class="chapter done " data-progress="1.10" style="left: 11.11111111111111%;"></a>
+    
+        <a href="..\../Books/Nodejs/Where to run nodejs.html" title="Where to run nodejs" class="chapter done " data-progress="1.11" style="left: 14.814814814814815%;"></a>
+    
+        <a href="..\../Books/Nodejs/Event loop.html" title="Event loop" class="chapter done " data-progress="1.2" style="left: 18.51851851851852%;"></a>
+    
+        <a href="..\../Books/Nodejs/package json.html" title="Package.json" class="chapter done " data-progress="1.3" style="left: 22.22222222222222%;"></a>
+    
+        <a href="..\../Books/Nodejs/NodeJS module.html" title="NodeJS module" class="chapter done " data-progress="1.4" style="left: 25.925925925925927%;"></a>
+    
+        <a href="..\../Books/Nodejs/Express.html" title="Express.js" class="chapter done " data-progress="1.5" style="left: 29.62962962962963%;"></a>
+    
+        <a href="..\../Books/Nodejs/Routes.html" title="Routes.js" class="chapter done " data-progress="1.6" style="left: 33.333333333333336%;"></a>
+    
+        <a href="..\../Books/Nodejs/Install-Express.html" title="Install Express" class="chapter done " data-progress="1.7" style="left: 37.03703703703704%;"></a>
+    
+        <a href="..\../Books/Nodejs/Express Static Middleware.html" title="Express Static Middleware" class="chapter done " data-progress="1.8" style="left: 40.74074074074074%;"></a>
+    
+        <a href="..\../Books/Nodejs/noodlejs.html" title="noodlejs" class="chapter done " data-progress="1.9" style="left: 44.44444444444444%;"></a>
+    
+        <a href="..\../Books/Javascript/README.html" title="Javascript" class="chapter done new-chapter" data-progress="2" style="left: 48.148148148148145%;"></a>
+    
+        <a href="..\../Books/Javascript/hoisting.html" title="Hoisting" class="chapter done " data-progress="2.1" style="left: 51.851851851851855%;"></a>
+    
+        <a href="..\../Books/Javascript/Json.html" title="Json" class="chapter  " data-progress="2.2" style="left: 55.55555555555556%;"></a>
+    
+        <a href="..\../Books/MySQL/README.html" title="MySQL" class="chapter  new-chapter" data-progress="3" style="left: 59.25925925925926%;"></a>
+    
+        <a href="..\../Books/MySQL/Chained data.html" title="Chained data" class="chapter  " data-progress="3.1" style="left: 62.96296296296296%;"></a>
+    
+        <a href="..\../Books/MySQL/Create JSON structure using SQL.html" title="Create JSON structure using SQL" class="chapter  " data-progress="3.2" style="left: 66.66666666666667%;"></a>
+    
+        <a href="..\../Books/PHP/README.html" title="PHP" class="chapter  new-chapter" data-progress="4" style="left: 70.37037037037037%;"></a>
+    
+        <a href="..\../Books/PHP/require vs include.html" title="require vs include" class="chapter  " data-progress="4.1" style="left: 74.07407407407408%;"></a>
+    
+        <a href="..\../Books/Java/README.html" title="Java" class="chapter  new-chapter" data-progress="5" style="left: 77.77777777777777%;"></a>
+    
+        <a href="..\../Books/Java/Garbage Collector.html" title="Garbage Collector" class="chapter  " data-progress="5.1" style="left: 81.48148148148148%;"></a>
+    
+        <a href="..\../Books/NoSQL/README.html" title="NoSQL" class="chapter  new-chapter" data-progress="6" style="left: 85.18518518518519%;"></a>
+    
+        <a href="..\../Books/Other/README.html" title="Other" class="chapter  new-chapter" data-progress="7" style="left: 88.88888888888889%;"></a>
+    
+        <a href="..\../Books/Other/Egyptian-multiplication.html" title="Egyptian multiplication" class="chapter  " data-progress="7.1" style="left: 92.5925925925926%;"></a>
+    
+        <a href="..\../Books/Other/Python.html" title="Python" class="chapter  " data-progress="7.2" style="left: 96.29629629629629%;"></a>
+    
+        <a href="..\../Books/Other/UML.html" title="UML" class="chapter  " data-progress="7.3" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_5">
+                    
+                        <h1 id="hoisting-javascript">Hoisting- Javascript</h1>
+<p>Javascript is an extremely flexible language. It allow variable declaration anywhere. Hoisting is the JavaScript interpreter’s action of moving all variable and function declarations to the top of the current scope. However, only the actual declarations are hoisted. Any assignments are left where they are.</p>
+<p>Step 1: Consider following immediately-invoked function expression (IIFE)</p>
+<blockquote>
+<p>(function() {
+  var a = 1;
+  var b = 2;
+  var c = 3;
+  alert(a + ” ” + b + ” ” + c);
+})();</p>
+</blockquote>
+<p>It displays the string “1 2 3″.</p>
+<p>Step 2: Now what happen if we move the alert one step higher.</p>
+<blockquote>
+<p>(function() {
+  var a = 1;
+  var b = 2;
+  alert(a + ” ” + b + ” ” + c);
+  var c = 3;
+})();</p>
+</blockquote>
+<p>This is a valid JavaScript code, which does not generate any exception.It will alert “1 2 undefined“.</p>
+<p>Step 3:</p>
+<blockquote>
+<p>(function() {
+  var a = 1;
+  var b = 2;
+  alert(a + ” ” + b + ” ” + c);
+  var c = 3;
+})();</p>
+</blockquote>
+<p>Step 4: Now remove the variable declaration var c = 3 and our code will look like</p>
+<blockquote>
+<p>(function() {
+  var a = 1;
+  var b = 2;
+  alert(a + ” ” + b + ” ” + c);
+})();</p>
+</blockquote>
+<p>But this will make a ReferenceError about the variable c is not defined. So what is the difference between Step 3 and Step 4? This is due to Javascript behaviour known as “hoisting”. Now what is hoisting?</p>
+<blockquote>
+<p>Hoisting is the JavaScript interpreter’s action of moving all variable and function declarations to the top of the current scope. </p>
+</blockquote>
+<p>However, only the actual declarations are hoisted. Any assignments are left where they are. So our IIFE will look like</p>
+<blockquote>
+<p>(function() {
+  var a;
+  var b;
+  var c;
+  a = 1;
+  b = 2;
+  c = 3;
+  alert(a + ” ” + b + ” ” + c);
+})();</p>
+</blockquote>
+<p>So our Step 3 code will look like</p>
+<blockquote>
+<p>(function() {
+  var a;
+  var b;
+  var c;
+  a = 1;
+  b = 2;
+  alert(a + ” ” + b + ” ” + c);
+  c = 3;
+})();</p>
+</blockquote>
+<p>The interesting points to remember here are</p>
+<ol>
+<li>JavaScript does not have block statement scope; rather, it will be local to the code that the block resides within.</li>
+<li>Javascript’s declaration of variables in a function scope, meaning that variables declared in a function are available anywhere in that function, even before they are assigned a value (value will be undefined if not assigned and no ReferenceError).</li>
+</ol>
+<p>No another interesting problem related to hoisting. What will be the value alerted in the following code?</p>
+<blockquote>
+<p>var myvar = 1;
+function foo() {
+    myvar = 10;
+    return;
+    function myvar() {}
+}
+foo();
+alert(myvar);</p>
+</blockquote>
+<ul>
+<li>In the first statement global variable myvar is set to 1</li>
+<li>Then the function foo() is called</li>
+<li>Function myvar() {} is hoisted and creates a local variable myvar that masks the global myvar.</li>
+<li>The local variable myvar is set to 10 (overwriting the function a) in the function foo.</li>
+<li>As the function foo() return it will alert the global variable myvar which is still 1. Remember the local variable myvar inside the function foo() will lost the scope as the function return.</li>
+</ul>
+<p>Here the important point to note is that  within the body of a function, a local variable takes precedence over a global variable with the same name. If you declare a local variable or function parameter with the same name as a global variable, you effectively hide the global variable.</p>
+<h3 id="block-level-scope-">Block-level scope:</h3>
+<p>When control enters a block, such as the if statement, new variables can be declared within that scope, without affecting the outer scope.  Example C</p>
+<h3 id="function-level-scope-">Function-level scope:</h3>
+<p>Blocks, do not create a new scope. Only functions create a new scope( example Javascript )</p>
+<h3 id="from-the-documentation-ecmascript-standard">From the documentation ECMAScript Standard</h3>
+<blockquote>
+<p>If the variable statement occurs inside a FunctionDeclaration, the variables are defined with function-local scope in that function, as described in section 10.1.3. Otherwise, they are defined with global scope (that is, they are created as members of the global object, as described in section 10.1.3) using property attributes { DontDelete }. Variables are created when the execution scope is entered. A Block does not define a new execution scope. Only Program and FunctionDeclaration produce a new scope. Variables are initialised to undefined when created. A variable with an Initialiser is assigned the value of its AssignmentExpression when the VariableStatement is executed, not when the variable is created.</p>
+</blockquote>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="..\../Books/Javascript/README.html" class="navigation navigation-prev"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="..\../Books/Javascript/Json.html" class="navigation navigation-next"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
+        <script src="..\..\gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+        <script src="..\..\gitbook/app.js"></script>
+        
+    </body>
+</html>

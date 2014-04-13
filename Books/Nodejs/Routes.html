@@ -1,0 +1,547 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
+        <meta charset="UTF-8">
+        <title>Routes.js | Blog</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="damodaran">
+        <meta name="description" content="Book generated using GitBook">
+        <meta name="keywords" content="gitbook,github" >
+        <meta name="generator" content="www.gitbook.io">
+
+        
+        <link rel="next" href="..\../Books/Nodejs/Install-Express.html" />
+        
+        
+        <link rel="prev" href="..\../Books/Nodejs/Express.html" />
+        
+
+        <meta property="og:title" content="Routes.js | Blog">
+        <meta property="og:site_name" content="Blog">
+        <meta property="og:type" content="book">
+        <meta property="og:locale" content="en_US">
+
+        <meta property="book:author" content="https://github.com/damodaran">
+        <meta property="book:tag" content="GitBook">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link rel="shortcut icon" href="..\..\gitbook/images/favicon.ico" type="image/x-icon">
+
+        
+        <link rel="stylesheet" href="..\..\gitbook/style.css">
+        
+        
+    </head>
+    <body>
+        
+<div class="book" data-github="damodaran/blog" data-level="1.6" data-basepath="..\.." data-revision="1397326311662">
+    <div class="book-header">
+    <!-- Actions Left -->
+    <a href="https://github.com/damodaran/blog" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
+    <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
+
+    <!-- Actions Right -->
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://github.com/damodaran/blog/stargazers" target="_blank" class="btn pull-right count-star"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/damodaran/blog/watchers" target="_blank" class="btn pull-right count-watch"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+
+
+    <!-- Title -->
+    <h1><a href="..\../" >Blog</a></h1>
+</div>
+
+    <div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        <li>
+            <a href="https://github.com/damodaran" target="blank">About the author</a>
+        </li>
+        <li>
+            <a href="https://github.com/damodaran/blog/issues" target="blank">Questions and Issues</a>
+        </li>
+        <li>
+            <a href="https://github.com/damodaran/blog/edit/master/Books/Nodejs/Routes.md" target="blank">Edit and Contribute</a>
+        </li>
+        <li class="divider"></li>
+        <li data-level="0" data-path="index.html">
+            <a href="..\../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+            <li  data-level="1" data-path="Books/Nodejs/README.html">
+                
+                <a href="..\../Books/Nodejs/README.html">
+                    <i class="fa fa-check"></i> <b>1)</b> Node.js
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="1.1" data-path="Books/Nodejs/NodeJS- Introduction.html">
+                            
+                            <a href="..\../Books/Nodejs/NodeJS- Introduction.html">
+                                <i class="fa fa-check"></i> <b>1.1)</b> NodeJS- Introduction
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.2" data-path="Books/Nodejs/Event loop.html">
+                            
+                            <a href="..\../Books/Nodejs/Event loop.html">
+                                <i class="fa fa-check"></i> <b>1.2)</b> Event loop
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.3" data-path="Books/Nodejs/package json.html">
+                            
+                            <a href="..\../Books/Nodejs/package json.html">
+                                <i class="fa fa-check"></i> <b>1.3)</b> Package.json
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.4" data-path="Books/Nodejs/NodeJS module.html">
+                            
+                            <a href="..\../Books/Nodejs/NodeJS module.html">
+                                <i class="fa fa-check"></i> <b>1.4)</b> NodeJS module
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.5" data-path="Books/Nodejs/Express.html">
+                            
+                            <a href="..\../Books/Nodejs/Express.html">
+                                <i class="fa fa-check"></i> <b>1.5)</b> Express.js
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.6" data-path="Books/Nodejs/Routes.html">
+                            
+                            <a href="..\../Books/Nodejs/Routes.html">
+                                <i class="fa fa-check"></i> <b>1.6)</b> Routes.js
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.7" data-path="Books/Nodejs/Install-Express.html">
+                            
+                            <a href="..\../Books/Nodejs/Install-Express.html">
+                                <i class="fa fa-check"></i> <b>1.7)</b> Install Express
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.8" data-path="Books/Nodejs/Express Static Middleware.html">
+                            
+                            <a href="..\../Books/Nodejs/Express Static Middleware.html">
+                                <i class="fa fa-check"></i> <b>1.8)</b> Express Static Middleware
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.9" data-path="Books/Nodejs/noodlejs.html">
+                            
+                            <a href="..\../Books/Nodejs/noodlejs.html">
+                                <i class="fa fa-check"></i> <b>1.9)</b> noodlejs
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.10" data-path="Books/Nodejs/requestjs.html">
+                            
+                            <a href="..\../Books/Nodejs/requestjs.html">
+                                <i class="fa fa-check"></i> <b>1.10)</b> requestjs
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.11" data-path="Books/Nodejs/Where to run nodejs.html">
+                            
+                            <a href="..\../Books/Nodejs/Where to run nodejs.html">
+                                <i class="fa fa-check"></i> <b>1.11)</b> Where to run nodejs
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="2" data-path="Books/Javascript/README.html">
+                
+                <a href="..\../Books/Javascript/README.html">
+                    <i class="fa fa-check"></i> <b>2)</b> Javascript
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="2.1" data-path="Books/Javascript/hoisting.html">
+                            
+                            <a href="..\../Books/Javascript/hoisting.html">
+                                <i class="fa fa-check"></i> <b>2.1)</b> Hoisting
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="2.2" data-path="Books/Javascript/Json.html">
+                            
+                            <a href="..\../Books/Javascript/Json.html">
+                                <i class="fa fa-check"></i> <b>2.2)</b> Json
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="3" data-path="Books/MySQL/README.html">
+                
+                <a href="..\../Books/MySQL/README.html">
+                    <i class="fa fa-check"></i> <b>3)</b> MySQL
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="3.1" data-path="Books/MySQL/Chained data.html">
+                            
+                            <a href="..\../Books/MySQL/Chained data.html">
+                                <i class="fa fa-check"></i> <b>3.1)</b> Chained data
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="3.2" data-path="Books/MySQL/Create JSON structure using SQL.html">
+                            
+                            <a href="..\../Books/MySQL/Create JSON structure using SQL.html">
+                                <i class="fa fa-check"></i> <b>3.2)</b> Create JSON structure using SQL
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="4" data-path="Books/PHP/README.html">
+                
+                <a href="..\../Books/PHP/README.html">
+                    <i class="fa fa-check"></i> <b>4)</b> PHP
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="4.1" data-path="Books/PHP/require vs include.html">
+                            
+                            <a href="..\../Books/PHP/require vs include.html">
+                                <i class="fa fa-check"></i> <b>4.1)</b> require vs include
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="5" data-path="Books/Java/README.html">
+                
+                <a href="..\../Books/Java/README.html">
+                    <i class="fa fa-check"></i> <b>5)</b> Java
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="5.1" data-path="Books/Java/Garbage Collector.html">
+                            
+                            <a href="..\../Books/Java/Garbage Collector.html">
+                                <i class="fa fa-check"></i> <b>5.1)</b> Garbage Collector
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="6" data-path="Books/NoSQL/README.html">
+                
+                <a href="..\../Books/NoSQL/README.html">
+                    <i class="fa fa-check"></i> <b>6)</b> NoSQL
+                </a>
+                
+                
+            </li>
+        
+            <li  data-level="7" data-path="Books/Other/README.html">
+                
+                <a href="..\../Books/Other/README.html">
+                    <i class="fa fa-check"></i> <b>7)</b> Other
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="7.1" data-path="Books/Other/Egyptian-multiplication.html">
+                            
+                            <a href="..\../Books/Other/Egyptian-multiplication.html">
+                                <i class="fa fa-check"></i> <b>7.1)</b> Egyptian multiplication
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="7.2" data-path="Books/Other/Python.html">
+                            
+                            <a href="..\../Books/Other/Python.html">
+                                <i class="fa fa-check"></i> <b>7.2)</b> Python
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="7.3" data-path="Books/Other/UML.html">
+                            
+                            <a href="..\../Books/Other/UML.html">
+                                <i class="fa fa-check"></i> <b>7.3)</b> UML
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body" tabindex="-1">
+        <div class="body-inner">
+            <div class="page-wrapper">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 33.333333333333336%;min-width: 29.62962962962963%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="..\../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="..\../Books/Nodejs/README.html" title="Node.js" class="chapter done new-chapter" data-progress="1" style="left: 3.7037037037037037%;"></a>
+    
+        <a href="..\../Books/Nodejs/NodeJS- Introduction.html" title="NodeJS- Introduction" class="chapter done " data-progress="1.1" style="left: 7.407407407407407%;"></a>
+    
+        <a href="..\../Books/Nodejs/requestjs.html" title="requestjs" class="chapter done " data-progress="1.10" style="left: 11.11111111111111%;"></a>
+    
+        <a href="..\../Books/Nodejs/Where to run nodejs.html" title="Where to run nodejs" class="chapter done " data-progress="1.11" style="left: 14.814814814814815%;"></a>
+    
+        <a href="..\../Books/Nodejs/Event loop.html" title="Event loop" class="chapter done " data-progress="1.2" style="left: 18.51851851851852%;"></a>
+    
+        <a href="..\../Books/Nodejs/package json.html" title="Package.json" class="chapter done " data-progress="1.3" style="left: 22.22222222222222%;"></a>
+    
+        <a href="..\../Books/Nodejs/NodeJS module.html" title="NodeJS module" class="chapter done " data-progress="1.4" style="left: 25.925925925925927%;"></a>
+    
+        <a href="..\../Books/Nodejs/Express.html" title="Express.js" class="chapter done " data-progress="1.5" style="left: 29.62962962962963%;"></a>
+    
+        <a href="..\../Books/Nodejs/Routes.html" title="Routes.js" class="chapter done " data-progress="1.6" style="left: 33.333333333333336%;"></a>
+    
+        <a href="..\../Books/Nodejs/Install-Express.html" title="Install Express" class="chapter  " data-progress="1.7" style="left: 37.03703703703704%;"></a>
+    
+        <a href="..\../Books/Nodejs/Express Static Middleware.html" title="Express Static Middleware" class="chapter  " data-progress="1.8" style="left: 40.74074074074074%;"></a>
+    
+        <a href="..\../Books/Nodejs/noodlejs.html" title="noodlejs" class="chapter  " data-progress="1.9" style="left: 44.44444444444444%;"></a>
+    
+        <a href="..\../Books/Javascript/README.html" title="Javascript" class="chapter  new-chapter" data-progress="2" style="left: 48.148148148148145%;"></a>
+    
+        <a href="..\../Books/Javascript/hoisting.html" title="Hoisting" class="chapter  " data-progress="2.1" style="left: 51.851851851851855%;"></a>
+    
+        <a href="..\../Books/Javascript/Json.html" title="Json" class="chapter  " data-progress="2.2" style="left: 55.55555555555556%;"></a>
+    
+        <a href="..\../Books/MySQL/README.html" title="MySQL" class="chapter  new-chapter" data-progress="3" style="left: 59.25925925925926%;"></a>
+    
+        <a href="..\../Books/MySQL/Chained data.html" title="Chained data" class="chapter  " data-progress="3.1" style="left: 62.96296296296296%;"></a>
+    
+        <a href="..\../Books/MySQL/Create JSON structure using SQL.html" title="Create JSON structure using SQL" class="chapter  " data-progress="3.2" style="left: 66.66666666666667%;"></a>
+    
+        <a href="..\../Books/PHP/README.html" title="PHP" class="chapter  new-chapter" data-progress="4" style="left: 70.37037037037037%;"></a>
+    
+        <a href="..\../Books/PHP/require vs include.html" title="require vs include" class="chapter  " data-progress="4.1" style="left: 74.07407407407408%;"></a>
+    
+        <a href="..\../Books/Java/README.html" title="Java" class="chapter  new-chapter" data-progress="5" style="left: 77.77777777777777%;"></a>
+    
+        <a href="..\../Books/Java/Garbage Collector.html" title="Garbage Collector" class="chapter  " data-progress="5.1" style="left: 81.48148148148148%;"></a>
+    
+        <a href="..\../Books/NoSQL/README.html" title="NoSQL" class="chapter  new-chapter" data-progress="6" style="left: 85.18518518518519%;"></a>
+    
+        <a href="..\../Books/Other/README.html" title="Other" class="chapter  new-chapter" data-progress="7" style="left: 88.88888888888889%;"></a>
+    
+        <a href="..\../Books/Other/Egyptian-multiplication.html" title="Egyptian multiplication" class="chapter  " data-progress="7.1" style="left: 92.5925925925926%;"></a>
+    
+        <a href="..\../Books/Other/Python.html" title="Python" class="chapter  " data-progress="7.2" style="left: 96.29629629629629%;"></a>
+    
+        <a href="..\../Books/Other/UML.html" title="UML" class="chapter  " data-progress="7.3" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_17">
+                    
+                        <p>In Express if you have two route paths with same address, rather than throwing an error, it will pick theroute path that was defined first in App.js.</p>
+<p>Routes are defined using an HTTP verb and a path pattern. Any request to the server that matches a route definition is routed to the associated route handler.
+Routes are URL schema for a website. Express routes can be strings or regular expressions.
+Express, by default, supports the following HTTP request methods</p>
+<ul>
+<li>GET</li>
+<li>POST</li>
+<li>PUT</li>
+<li>DELETE</li>
+<li>HEAD</li>
+<li>TRACE</li>
+<li>OPTIONS</li>
+<li>CONNECT</li>
+<li>PATCH</li>
+<li>M-SEARCH</li>
+<li>NOTIFY</li>
+<li>SUBSCRIBE</li>
+<li><p>UNSUBSCRIBE
+Not supported:</p>
+</li>
+<li><p>LINK</p>
+</li>
+<li>UNLINK</li>
+<li>PURGE are currently not supported by Express Node HTTP library.<h3 id="routes">Routes</h3>
+While other Express middlewares are inherited from Connect, router is implemented by Express itself.
+The route that is defined first takes precedence over other matching routes. 
+Route handler functions accept a third parameter, commonly named next, which refers to the next middleware in line.
+If you want to handle POST requests, you have to make your app use bodyParser middleware. That can be done through app.use(express.bodyParser()). BodyParser basically parses the application/x-www-form-urlencoded and application/json request bodies and sets up req.body for you. </li>
+</ul>
+<p>You can create routes with other HTTP verbs .
+app.get(&#39;/&#39;,function(req,res)
+{
+  res.send(&quot;I am Foo&quot;);
+});</p>
+<p>app.put(&#39;/&#39;,function(req,res)
+{
+  res.send(req.body);
+});</p>
+<p>app.post(&#39;/&#39;,function(req,res)
+{
+  res.send(req.body);
+});</p>
+<p>app.delete(&#39;/&#39;,function(req,res)
+{
+  res.send(req.body);
+});</p>
+<p>you may want to create only one route path where the id parameter is optional
+app.get(&#39;/:id?&#39;,function(req,res)
+{
+  if(req.params.id)
+    {
+      res.send(&quot;I am Foo with id &quot; + req.params.id);
+  }
+    else
+    {
+      res.send(&quot;I am Foo&quot;);
+  }
+});
+This route can handle both types of requests, either with a parameter or without one. </p>
+<p>Express allow you to use a wildcard within a route path using <em>
+app.get(&#39;/</em>&#39;,function(req,res)
+{
+  req.send(&quot;I am Foo&quot;);
+ });</p>
+<h1 id="regular-expression-routes">Regular expression routes</h1>
+<p>Pros
+ Routes can be defined as regular expressions
+ It is not a straightforward approach
+ helps to create flexible and powerful route patterns.
+Cons: hard to debug and maintain.</p>
+<blockquote>
+<p>Do not quote the regular expression object, or else you will get unexpected results.</p>
+</blockquote>
+<p>Input parameters are parsed and accessible via req.params. req.body object is used to handle data in HTTP POST request. 
+There are two types of parametric GET requests in Express.js - req.params and req.query.</p>
+<h3 id="req-params-">req.params:</h3>
+<p>req.params will return parameters in the matched route. If your route is /user/:id and you make a request to /user/2 - req.params would yield {id: &quot;2&quot;}
+To handle request parameters in URLs like <a href="http://example.com/product/1274" target="_blank">http://example.com/product/1274</a>, You can define a route as
+app.get(&#39;/user/:id&#39;, function(req, res){
+  res.send(&quot;User Id : &quot;+ req.params.id)
+});
+It uses the clean URL scheme</p>
+<h3 id="req-query-">req.query :</h3>
+<p>The req.query object contains request parameters in the GET query. req.query will return a JS object after the query string is parsed. It uses the conventional GET request scheme. Eg: <a href="http://example.com?name=john&amp;age=24" target="_blank">http://example.com?name=john&amp;age=24</a>. In this case req.query would yield {name:&quot;tom&quot;, age: &quot;55&quot;}</p>
+<h2 id="req-body">req.body</h2>
+<p>This property is an object containing the parsed request body. This feature is provided by the bodyParser() middleware, though other body parsing middleware may follow this convention as well. This property defaults to {} when bodyParser() is used.</p>
+<p>// POST user[name]=tobi&amp;user[email]=tobi@learnboost.com
+req.body.user.name
+// =&gt; &quot;tobi&quot;</p>
+<p>req.body.user.email
+// =&gt; &quot;tobi@learnboost.com&quot;</p>
+<p>// POST { &quot;name&quot;: &quot;tobi&quot; }
+req.body.name
+// =&gt; &quot;tobi&quot;</p>
+<h2 id="req-param-name-">req.param(name)</h2>
+<p>Return the value of param name when present.</p>
+<p>// ?name=tobi
+req.param(&#39;name&#39;)
+// =&gt; &quot;tobi&quot;</p>
+<p>// POST name=tobi
+req.param(&#39;name&#39;)
+// =&gt; &quot;tobi&quot;</p>
+<p>// /user/tobi for /user/:name 
+req.param(&#39;name&#39;)
+// =&gt; &quot;tobi&quot;
+Lookup is performed in the following order:</p>
+<p>req.params
+req.body
+req.query
+Direct access to req.body, req.params, and req.query should be favoured for clarity - unless you truly accept input from each object.</p>
+<h2 id="req-path">req.path</h2>
+<p>Returns the request URL pathname.</p>
+<p>// example.com/users?sort=desc
+req.path
+// =&gt; &quot;/users&quot;</p>
+<p> HTTP verbs- <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html" target="_blank">http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html</a>
+ Organize routes in Node.js- <a href="https://github.com/visionmedia/express/tree/master/examples" target="_blank">https://github.com/visionmedia/express/tree/master/examples</a>
+ Understanding Express Routes- <a href="http://www.packtpub.com/article/understanding-express-routes" target="_blank">http://www.packtpub.com/article/understanding-express-routes</a>
+ expressjs middleware - <a href="http://expressjs.com/guide.html#middleware" target="_blank">http://expressjs.com/guide.html#middleware</a></p>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="..\../Books/Nodejs/Express.html" class="navigation navigation-prev"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="..\../Books/Nodejs/Install-Express.html" class="navigation navigation-next"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
+        <script src="..\..\gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+        <script src="..\..\gitbook/app.js"></script>
+        
+    </body>
+</html>
