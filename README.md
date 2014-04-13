@@ -1,18 +1,18 @@
 Hi
 
-My name is Damodaran.
+My name is Damodaran. This is my personal blog. More than a blog it is my personal reference notes. This notes include the problems and chalenges that I faced during my professional career, the technologies I used and interesting things I figured while browsing.
 
-###My Fav Quote:
+My Favorite Quote:
 
 >"It is unknown to those who know it and known to those who do not know":- Kena Upanishad
 
-###My LinkedIn Profile : https://www.linkedin.com/pub/damodaran-p/22/9b1/a82
+My LinkedIn Profile : https://www.linkedin.com/pub/damodaran-p/22/9b1/a82
+My Blogs :
+ - http://damodaran.github.io/
+ - http://tadvana.wordpress.com
 
-###My Blog : http://damodaran.github.io/
-
-###Twitter: @damodaranp
-
-<a href="http://stackoverflow.com/users/524700/damodaran">
+Twitter: @damodaranp
+Stackoverflow: <a href="http://stackoverflow.com/users/524700/damodaran">
 <img src="http://stackoverflow.com/users/flair/524700.png" width="208" height="58" alt="profile for Damodaran at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Damodaran at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
 </a>
 
